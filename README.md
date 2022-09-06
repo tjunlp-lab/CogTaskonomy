@@ -61,4 +61,19 @@ python similarity_calculation/sim_embedding.py.py -Cognitivedata_dir $cogdata_na
 If you use the source codes here in your work, please cite the corresponding paper. The bibtex is listed below:
 
 ```
+@inproceedings{luo-etal-2022-cogtaskonomy,
+    title = "{C}og{T}askonomy: Cognitively Inspired Task Taxonomy Is Beneficial to Transfer Learning in {NLP}",
+    author = "Luo, Yifei  and
+      Xu, Minghui  and
+      Xiong, Deyi",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.64",
+    doi = "10.18653/v1/2022.acl-long.64",
+    pages = "904--920",
+    abstract = "Is there a principle to guide transfer learning across tasks in natural language processing (NLP)? Taxonomy (Zamir et al., 2018) finds that a structure exists among visual tasks, as a principle underlying transfer learning for them. In this paper, we propose a cognitively inspired framework, CogTaskonomy, to learn taxonomy for NLP tasks. The framework consists of Cognitive Representation Analytics (CRA) and Cognitive-Neural Mapping (CNM). The former employs Representational Similarity Analysis, which is commonly used in computational neuroscience to find a correlation between brain-activity measurement and computational modeling, to estimate task similarity with task-specific sentence representations. The latter learns to detect task relations by projecting neural representations from NLP models to cognitive signals (i.e., fMRI voxels). Experiments on 12 NLP tasks, where BERT/TinyBERT are used as the underlying models for transfer learning, demonstrate that the proposed CogTaxonomy is able to guide transfer learning, achieving performance competitive to the Analytic Hierarchy Process (Saaty, 1987) used in visual Taskonomy (Zamir et al., 2018) but without requiring exhaustive pairwise $O(m^2)$ task transferring. Analyses further discover that CNM is capable of learning model-agnostic task taxonomy.",
+}
 ```
